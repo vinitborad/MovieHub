@@ -39,7 +39,7 @@ export default function MovieScreen() {
     console.log('got movie details');
     setLoading(false);
     if(data) {
-        // TODO : what is happening here?
+        // TODO : 
         setMovie({...movie, ...data});
     }
   }
@@ -62,13 +62,13 @@ export default function MovieScreen() {
   return (
     <ScrollView 
         contentContainerStyle={{paddingBottom: 20}} 
-        // TODO : what flex-1
+        // TODO : 
         className="flex-1 bg-neutral-900">
 
       {/* back button and movie poster */}
       <View className="w-full">
         <SafeAreaView className={"absolute z-20 w-full flex-row justify-between items-center px-4 "+topMargin}>
-            {/* TODO : what is this background */}
+            {/* TODO :  */}
             <TouchableOpacity style={styles.background} className="rounded-xl p-1" onPress={()=> navigation.goBack()}>
                 <ChevronLeftIcon size="28" strokeWidth={2.5} color="white" />
             </TouchableOpacity>
