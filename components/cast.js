@@ -22,8 +22,7 @@ export default function Cast({cast, navigation}) {
                             <View 
                                 className="overflow-hidden rounded-full h-20 w-20 items-center border border-neutral-500">
                                 <Image 
-                                    className="rounded-2xl h-24 w-20"
-                                    // source={require('../assets/images/castImage1.png')} 
+                                    className="rounded-2xl h-24 w-20" 
                                     source={{uri: image185(person?.profile_path) || fallbackPersonImage}} 
                                 />
                             </View>
